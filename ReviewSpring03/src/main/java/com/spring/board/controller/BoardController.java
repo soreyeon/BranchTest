@@ -33,6 +33,7 @@ public class BoardController {
 		return "home";
 	}
    
+	//테스트
 	//게시글목록조회
 	@RequestMapping("/Board/List")
 	public ModelAndView boardList(@RequestParam HashMap<String, Object> map) {
