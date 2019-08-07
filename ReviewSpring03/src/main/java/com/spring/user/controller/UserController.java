@@ -51,5 +51,10 @@ public class UserController {
 		return returnURL;
 	}
 	
+	@RequestMapping("/join")
+	public String join() {
+		return "login/joinForm";
+	}
+	
 	
 }
